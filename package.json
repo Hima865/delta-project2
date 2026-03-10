@@ -1,6 +1,6 @@
 {
-  "engines":{
-    "nodes":"20.16.0"
+  "engines": {
+    "nodes": "20.16.0"
   },
   "name": "project",
   "version": "1.0.0",
@@ -13,7 +13,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "cloudinary": "^2.9.0",
+    "cloudinary": "^1.41.0",
     "connect-flash": "^0.1.1",
     "connect-mongo": "^6.0.0",
     "cookie": "^1.0.2",
