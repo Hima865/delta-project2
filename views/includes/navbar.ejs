@@ -33,7 +33,9 @@
               <% if(typeof currUser !== "undefined" && currUser){ %>
           <a class="nav-link "  href="/signup"><b>Sing up</b></a>
           <a class="nav-link" href="/login"><b>Login</b></a>
-          <% } else { %>
+          <% }
+          //  else { %>
+          <% if(currUser) { %>
           <a class="nav-link" href="/logout"><b>Log out</b></a>
         <% } %>
         </div>
